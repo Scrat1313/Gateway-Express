@@ -13,4 +13,11 @@ module.exports = [
             { method: "all", route: "/:path*" },
         ],
     },
+    {
+        prefix: "/servicesuggestion",
+        target: "http://173.249.25.94:5009",
+        endpoints: [
+            { method: "all", route: "/:path*" },
+        ],
+    },
 ];
