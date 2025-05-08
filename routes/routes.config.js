@@ -91,13 +91,6 @@ module.exports = [
         ],
     },
     {
-        prefix: "/serviceupload",
-        target: "http://173.249.25.94:5012/serviceupload",
-        endpoints: [
-            { method: "all", route: "/:path*" },
-        ],
-    },
-    {
         prefix: "/servicenotification",
         target: "http://173.249.25.94:5013/servicenotification",
         endpoints: [
